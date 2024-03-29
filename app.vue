@@ -1,7 +1,5 @@
 <script lang="ts">
-
   export default defineNuxtComponent({
-    name: 'App',
     mounted() {
       console.log(this.$config.public.msg)
     }

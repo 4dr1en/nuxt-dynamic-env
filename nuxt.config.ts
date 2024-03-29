@@ -2,9 +2,5 @@
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  runtimeConfig: {
-    public: {
-      msg: ''
-    }
-  }
+  ssr: false,
 })
